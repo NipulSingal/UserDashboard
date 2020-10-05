@@ -58,20 +58,20 @@ class Register extends Component {
           <div className="col s8 offset-s2">
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
               <h4>
-                <b>Register</b> below
+                <b>Register</b> Below
               </h4>
               <p className="grey-text text-darken-1">
-                Already have an account? <Link to="/login">Log in</Link>
+                Already have an account? <Link to="/login">Login</Link>
               </p>
             </div>
             <form noValidate onSubmit={this.onSubmit}>
               <div className="input-field col s12">
                 <input
-                  onChange={this.onChange}
                   value={this.state.name}
                   error={errors.name}
                   id="name"
                   type="text"
+                  onChange={this.onChange}
                   className={classnames("", {
                     invalid: errors.name
                   })}
@@ -124,15 +124,15 @@ class Register extends Component {
               <div className="col s12" style={{ paddingLeft: "11.250px" }}>
                 <button
                   style={{
-                    width: "150px",
-                    borderRadius: "3px",
+                    width: "160px",
+                    borderRadius: "4px",
                     letterSpacing: "1.5px",
                     marginTop: "1rem"
                   }}
                   type="submit"
                   className="btn btn-large waves-effect waves-light hoverable blue accent-3"
                 >
-                  Sign up
+                  Signup
                 </button>
               </div>
             </form>
