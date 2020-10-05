@@ -48,9 +48,9 @@ class Dashboard extends Component {
                 <p className="flow-text grey-text text-darken-1">
                   You are logged into your <span style={{ fontFamily: "monospace" }}> Dashboard </span> App...
                 </p>
-                <h5> Complete Dashboard Coming Soon ... </h5>
+                <h5> Complete Dashboard with a personal Todo App Coming Soon ... </h5>
               </h4>
-              <button style={{ width: "150px", borderRadius: '3px', letterSpacing: "1.5px", marginTop: "1rem" }} className="btn btn-large waves-effect waves-light hoverable blue accent-3" onClick={this.onLogoutClick}> Logout </button>
+              <button style={{ width: "160px", borderRadius: '4px', letterSpacing: "1.5px", marginTop: "1rem" }} className="btn btn-large waves-effect waves-light hoverable blue accent-3" onClick={this.onLogoutClick}> Logout </button>
             </div>
           </div>
           <br/>
